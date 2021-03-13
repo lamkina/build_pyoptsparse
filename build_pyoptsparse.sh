@@ -334,7 +334,7 @@ build_pyoptsparse() {
 
     pip install numpy
     bkp_dir pyoptsparse
-    git clone -b "$PYOPTSPARSE_BRANCH" https://github.com/mdolab/pyoptsparse.git
+    git clone -b "$PYOPTSPARSE_BRANCH" https://github.com/lamkina/pyoptsparse.git
 
     if [ "$PYOPTSPARSE_BRANCH" = "v1.2" ]; then
         case $patch_type in
